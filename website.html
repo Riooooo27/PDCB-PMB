@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+		<link rel="stylesheet" href="tutorial.css">
+  </head>
+  <body>
+    <header>
+			<p>Quick Navigation</p>
+			<nav>
+				<ul>
+					<li><a href="#intro">My Website</a></li>
+					<li><a href="#sect1">Judul Artikel 1</a></li>
+					<li><a href="#send_form">Send me a message</a></li>
+				</ul>
+			</nav>
+		</header>
+
+    <main>
+      <nav>
+
+      <div id="content">
+        <section id="intro">
+          <h1>My Website</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi atque
+            repellendus a, placeat laborum quibusdam minus, quas facilis quasi
+            voluptate ipsa recusandae? Tempore vel eligendi velit ea harum
+            numquam quidem.
+          </p>
+        </section>
+
+        <section id="sect1">
+          <h2>Judul Artikel 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque,
+            enim deserunt architecto sed placeat quod cum. Sequi repellat, cum
+            aperiam debitis provident sit maxime quo expedita eaque dolores
+            quisquam!
+          </p>
+        </section>
+
+        <section id="send_form">
+					<h2>Send me a message</h2>
+          <form onsubmit="submitForm()">
+						<label for="nama">Nama</label>
+						<input type="text" name="nama" id="nama" required />
+
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" required />
+
+						<label for="pesan">Pesan</label>
+						<textarea name="pesan" id="pesan" cols="30" rows="10" required></textarea>
+
+						<input type="submit" value="Submit" />
+			
+						<script src="script.js"></script>
+					</form>
+      </div>
+
+      <aside>
+        <p>Rionando Soeksin Putra</p>
+        <p>11221063</p>
+        <p>Tarakan, 27 Juni 2004</p>
+      </aside>
+    </main>
+
+    <footer>&#169;2023 Rionando Soeksin Putra</footer>
+  </body>
+</html>
